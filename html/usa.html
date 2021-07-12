@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USA</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="shortcut icon" href="../images/favicon_usa.ico" type="image/x-icon">
+</head>
+
+<body class="usa_body fade-in">
+    <nav role='navigation' id="nav" class="nav_dark">
+        <a data-page="home" class="" href="../index.html">Home</a>
+        <a data-page="solution" class="active" href="usa.html">USA</a>
+        <a data-page="survey" class="" href="asia.html">Asia</a>
+        <a data-page="about" class="" href="europe.html">Europe</a>
+        <a data-page="about" class="" href="aboutus.html">About US</a>
+        <span class="nav_hero">Revilky</span>
+        <a href="javascript:void(0);" class="nav_icon" onclick="openNav()">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+        </a>
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div>
+    </nav>
+
+    <div class="title_div">
+        <a href="../index.html"><img src="../images/logo.png" alt="Revilky Logo"></a>
+        <h1>USA</h1>
+    </div>
+
+    <article>
+        <div class="p_container">
+            <p class="p_article">According to the data collected by EO Dashboard, the COVID – 19 pandemics have had an impact on the density of autos in international airports in the United States. The number of automobiles in airports has decreased significantly after the
+                COVID-19 pandemics, as shown in (figure 1); nevertheless, this significant reduction began in March 2020 and has continued unabated since then. Since the lockdown due to the COVID-19, the traffic has vanished as the density of cars has
+                decreased. This reduction in car density in the airport's by-parking areas substantially impacts two aspects: economics and air quality.</p>
+            <img src="../images/usa_fig_1.png" alt="Figure 1">
+            <figcaption class="article_animation">Figure 1; Car Density in different times</figcaption>
+            <span class="section_title article_animation">Economic impact:</span>
+            <p class="p_article article_animation">The decrease in automobiles has had a significant impact on the economy. Due to the COVID–19 crisis, more than one billion passengers were removed, representing a decline of 64.4% of global passenger traffic because of the travel limitations.
+                Due to the drop in demand for automobiles, the vehicle service businesses have chosen to dismiss their employees to cut costs as much as feasible. In comparison to the number of workers in 2019, 10.05 % of workers have lost their employment,
+                putting their families in poverty. Furthermore, the sector has been impacted since the total sales during the second quarter in 2020 declined by about 34%. This industry not only has an influence on itself, but it also has an impact on
+                the other industries; the U.S. Department of transportation loses 43.5$ million a day in federal gas tax losses. The economic effect of this business has had a wide range of consequences that have harmed the community.</p>
+
+            <span class="section_title article_animation">Air quality impact:</span>
+            <p class="p_article article_animation">Automobiles have a significant influence on air quality in general. The combustion of fossil fuels produces a large number of greenhouse gases, which has a significant impact on air quality; however, due to the COVID-19 pandemics, the amount
+                of CO 2 generated has shown a 17% decrease in daily global CO 2 emission by early April 2020 compared to the mean level in 2019 as shown in figure 2. Following the global lockdown, there was a massive fall in NO2 about 45% to 50%. In urban
+                areas in North America, NO2 levels were lowered by 19–28%. This was mainly due to a reduction in traffic emissions in urban areas. Furthermore, the Ozone Hole has been closed for the first time since 1980; yet, the industry has suffered
+                huge losses; conversely, air quality has improved. Figure 3 shows the difference between how polluted the air quality was in 2015-2019 and how it is after the COVID-19 (after March 2020).</p>
+            <div id="girdded_div">
+                <div><img src="../images/usa_fig_2.png" alt="Figure 2">
+                    <figcaption>Figure 2; amount of NO2 in different times.</figcaption>
+                </div>
+                <div><img src="../images/usa_fig_3.png" alt="Figure 3">
+                    <figcaption>Figure 3; difference between air quality in different times.</figcaption>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <span class="scrolltop" id="scrolltop">
+        <button id="scrollTopBtn" onclick="ScrollTop()" title="Scroll To Top">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" fill="currentColor">
+                <g>
+                        <path d="M256,0C114.837,0,0,114.837,0,256s114.837,256,256,256s256-114.837,256-256S397.163,0,256,0z M335.083,271.083
+               L228.416,377.749c-4.16,4.16-9.621,6.251-15.083,6.251c-5.461,0-10.923-2.091-15.083-6.251c-8.341-8.341-8.341-21.824,0-30.165
+               L289.835,256l-91.584-91.584c-8.341-8.341-8.341-21.824,0-30.165s21.824-8.341,30.165,0l106.667,106.667
+               C343.424,249.259,343.424,262.741,335.083,271.083z"/>
+               </g>
+            </svg>
+        </button>
+    </span>
+
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
